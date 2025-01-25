@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        slideBg: "#F0F0F0",
       },
     },
   },
