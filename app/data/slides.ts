@@ -4,7 +4,7 @@ import Icon3 from "../assets/svg/icon3.svg";
 import Icon4 from "../assets/svg/icon4.svg";
 import Icon5 from "../assets/svg/icon5.svg";
 import Icon6 from "../assets/svg/icon6.svg";
-import { Slide } from "../interfaces/interfaces";
+import { Slide } from "../utils/interfaces";
 
 export const slides: Slide[] = [
   { id: 1, content: "Анализ текущего состояния карьеры", img: Icon1 },

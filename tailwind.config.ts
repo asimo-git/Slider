@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         slideBg: "#F0F0F0",
+        buttonBg: "#CCCCCC",
+      },
+      screens: {
+        "custom-sm": "620px",
+        "custom-lg": "1160px",
       },
     },
   },

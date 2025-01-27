@@ -1,11 +1,10 @@
-import Slider from "./components/slider";
-import { slides } from "./data/slides";
+import Slider from "./components/slider/Slider";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="px-4">
       <h2>Наши услуги</h2>
-      <Slider slides={slides} />
+      <Slider></Slider>
     </main>
   );
 }
