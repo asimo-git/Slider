@@ -10,6 +10,8 @@ export interface Slide {
 export interface SliderProps {
   slides: Slide[];
   activeSlide: number;
+  onSlideChange: (index: number) => void;
+  numberOfSlidesPerView: number;
 }
 
 export interface SliderPaginationProps {

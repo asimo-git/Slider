@@ -46,7 +46,12 @@ export default function Slider() {
         numberOfElements={slides.length}
         numberOfSlidesPerView={numberOfSlidesPerView}
       />
-      <SliderContainer activeSlide={activeSlide} slides={slides} />
+      <SliderContainer
+        activeSlide={activeSlide}
+        slides={slides}
+        onSlideChange={handleSlideChange}
+        numberOfSlidesPerView={numberOfSlidesPerView}
+      />
     </>
   );
 }
