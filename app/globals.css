@@ -18,4 +18,5 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: "PP Neue Montreal", Arial, Helvetica, sans-serif;
+  padding: 16px;
 }

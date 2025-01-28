@@ -13,9 +13,10 @@ export default {
         foreground: "var(--foreground)",
         slideBg: "#F0F0F0",
         buttonBg: "#CCCCCC",
+        accent: "#A59DFF",
       },
       screens: {
-        "custom-sm": "620px",
+        "custom-sm": "660px",
         "custom-lg": "1160px",
       },
     },
